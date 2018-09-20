@@ -1,17 +1,24 @@
 doctype html
-html
+html(lang="en")
 	head
 		meta(charset="utf-8")
-		meta(content="IE=edge", http-equiv="X-UA-Compatible")
+		meta(content="IE=edge" http-equiv="X-UA-Compatible")
 
-		meta(content="Totally professional web development", name="description")
-		meta(content="Vim", name="generator")
-		meta(content="totes profesh, web development", name="keywords")
-		meta(content="Totes Profesh team", name="publisher")
-		meta(content="follow, index", name="robots")
-		meta(content="width=device-width, initial-scale=1", name="viewport")
+		meta(content="Totally professional web development" name="description")
+		meta(content="Pug" name="generator")
+		meta(content="totes profesh, web development" name="keywords")
+		meta(content="Totes Profesh team" name="publisher")
+		meta(content="follow, index" name="robots")
+		meta(content="width=device-width, initial-scale=1" name="viewport")
 
-		link(href="http://fonts.googleapis.com/css?family=Righteous", rel="stylesheet", type="text/css")
+		script(async src="https://www.googletagmanager.com/gtag/js?id=UA-45608032-3")
+		script.
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-45608032-3');
+
+		link(href="http://fonts.googleapis.com/css?family=Righteous" rel="stylesheet" type="text/css")
 
 		style(type="text/css").
 			.love {
@@ -47,5 +54,3 @@ html
 			http://patorjk.com/software/taag/#p=display&f=Big%20Money-sw&t=Totes%20Profesh
 
 		p.love.middle &lt;3
-		p.middle We engage social strategies to promote synergy towards success.
-		p.middle Leveraging Web 2.0 to optimise Next Generation HTML 5 in your VGA CRT.
